@@ -8,6 +8,6 @@
         void menu();
         void init_vector(VECTOR *vect);
         void decomposing_force(float magnitude_vect, double angle, VECTOR *deco_vect);
-        void calcDis(float speed,float velocity,float course_time,float dist);
-        void kmp2mps(float kph, float mps);
+        void calcDis(float speed,float velocity,float course_time);
+        void kmp2mps(float kph);
 #endif
